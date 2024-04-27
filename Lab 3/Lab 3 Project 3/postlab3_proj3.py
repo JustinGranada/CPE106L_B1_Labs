@@ -63,13 +63,13 @@ class Student(object):
 
 def main():
     """A simple test."""
-    studentA = Student("StudentA", 5)
+    studentA = Student("Jarick", 5)
     print(studentA)
     for i in range(1, 6):
         studentA.setScore(i, 100)
     print(studentA)
 
-    studentB = Student("StudentB", 5)
+    studentB = Student("Jam", 5)
     print(studentB)
     for i in range(1, 6):
         studentB.setScore(i, 100)

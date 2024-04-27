@@ -50,10 +50,10 @@ class Student(object):
 def main():
     """A simple test."""
     # Create some Student objects
-    student1 = Student("Ken", 5)
-    student2 = Student("John", 5)
-    student3 = Student("Alice", 5)
-    student4 = Student("Bob", 5)
+    student1 = Student("Elly", 5)
+    student2 = Student("Ice", 5)
+    student3 = Student("Neo", 5)
+    student4 = Student("Elmo", 5)
     
     # Put the students into a list
     students = [student1, student2, student3, student4]
