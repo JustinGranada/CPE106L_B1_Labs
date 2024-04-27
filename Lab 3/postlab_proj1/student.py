@@ -62,7 +62,6 @@ class Student(object):
             return "Not Greater Than Nor Equal"
 
 def main():
-    """A simple test."""
     studentA = Student("Jarick", 5)
     print(studentA)
     for i in range(1, 6):
@@ -76,9 +75,10 @@ def main():
     print(studentB)
 
     print("\n--Results--")
-    print(Student.__equal__(studentA, studentB))
-    print(Student.__lessThan__(studentA, studentB))
-    print(Student.__greaterThan__(studentA, studentB))
+    
+    print("Jarick is", Student.__equal__(studentA, studentB), "to Jam")
+    print("Jarick is",Student.__lessThan__(studentA, studentB), "to Jam")
+    print("Jarick is",Student.__greaterThan__(studentA, studentB),"to Jam")
     print("\n")
 
 if __name__ == "__main__":
